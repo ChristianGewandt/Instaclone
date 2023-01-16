@@ -1,0 +1,321 @@
+
+.head-Post-Content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.head-Post-profile-pic-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.head-Post-header-profile-name {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+
+
+.post-it-main-container {
+    display: flex;
+    height: 100%;
+    width: 470px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.post-it-header {
+    background-color: rgb(250, 250, 250);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 5px 10px 5px 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.post-it-img-container {
+    display: contents;
+}
+
+.post-it-header-container-right {
+    display: flex;
+    align-items: center;
+}
+
+.post-it-header-profile-name {
+    margin-left: 10px;
+}
+    
+
+.profile-pic-small {
+    height: 30px;
+    width: 30PX;
+    border-radius: 100%;
+    
+    
+    
+}
+
+.story-ring {
+   
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(45deg, orange, purple) border-box;
+    border: 2px solid transparent;
+    
+}
+
+.three-points {
+    height: 5px;
+    
+}
+
+
+.post-it-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.comment-section {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+.comment-section-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+.comment-section-icons-size {
+    height: 24px;
+    width: 24px;
+    margin-left: 15px;
+}
+
+
+.comment-section-like {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.comment-section-username-and-description {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.comment-section-time {
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 10px;
+    color: gray;
+}
+
+.comment-section-input {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid grey;
+}
+
+.comment-section-icon-smilie {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+
+
+input.comment-section-input-field {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+.comment-section-button {
+    background-color: transparent;
+    border: none;
+    color: #0095F6;
+}
+
+.my-profiel-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.my-profiel-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+
+.my-profiel-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.my-profiel-usernmae {
+    font-size: 10px;
+}
+
+.my-profiel-name {
+    font-size: 10px;
+    color: gray;
+}
+
+.my-profiel-button {
+    background-color: transparent;
+    border: none;
+    font-size: 9px;
+    font-weight: bold;
+    color: #0095F6;
+    padding: 0;
+}
+
+.suggestions-for-you-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.suggestions-for-you {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.view-all {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.my-profiel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.my-profiel-for-.pic-and-name-container {
+    display: flex;
+}
+
+.profile-suggestions-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-suggestions {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-suggestions_pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.profile-suggestions-username {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.profile-suggestions-name {
+    font-size: 10px;
+    color: grey;
+}
+
+.profile-suggestions-name-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.follow {
+    font-size: 9px;
+    font-weight: bold;
+    color: #0095F6;
+}
+
+
+
+/*CSS für  den left-side_container und die Untercontainer*/
+
+
+.left-side-container {
+    display: flex;
+    align-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.left-side-logo {
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+.left-side-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.left-side-content {
+    font-size: 13px;
+}
+
+.left-side-profil-pic {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+}
+
+.left-side-content-container {
+    display: flex;
+    margin-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+}
+
+.left-side-content-container:hover {
+    background-color: rgb(202, 201, 201);
+    height: 20px;
+    max-width: 100%;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+.comment-section-comtens-card {
+    padding: 4px 16px 8px 16px;
+    word-wrap: break-word;
+}

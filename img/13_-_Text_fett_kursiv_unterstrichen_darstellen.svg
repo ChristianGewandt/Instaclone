@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1643 573" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect x="0" y="0" width="1642.08" height="572.129" style="fill:rgb(253,112,101);"/>
+    <g transform="matrix(9.07285,0,0,9.07285,-3116.39,-1892.06)">
+        <g transform="matrix(1,0,0,1,377.089,232.416)">
+            <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12px;">13 - T<tspan x="30.451px 37.125px " y="0px 0px ">ex</tspan>t fett, kursiv<tspan x="110.924px " y="0px ">,</tspan></text>
+            <text x="0px" y="12px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12px;">unterstrichen</text>
+            <text x="0px" y="24px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12px;">darstellen</text>
+        </g>
+    </g>
+    <path d="M1642.08,0L0,0L0,572.129L1642.08,572.129L1642.08,0ZM1640,2.083L1640,570.046L2.077,570.046L2.077,2.083L1640,2.083Z" style="fill:rgb(6,6,6);"/>
+</svg>

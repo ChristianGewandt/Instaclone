@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0" />  
+    <meta name="description" content="Beschreibungstext">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="template.css">
+    <script src="script.js"></script>
+    <script src="template.js"></script>
+    <title>Beispielseite</title>
+</head>
+
+<body onload="load()">
+    <div class="main-container">
+        <div class="sidebar-container"></div>
+        <div class="content-container">
+            <div class="main-post-contaier">
+                <div class="head-post-container"></div>
+                <div id="content-post-container" class="content-post-container"></div>
+            </div>
+            <div class="right-info-container"></div>
+        </div>
+    </div>  
+    
+</body>
+</html>
+
+
+<div class="post-it-main-container">
+    <div class="post-it-header">
+        <img class="three-points" src="./img/3 Punkte.svg" alt="">
+        <div class="post-it-header-container-right">
+            <img class="profile-pic-small story-ring" src="${post['profilePic']}" alt="">
+            <span class="post-it-header-profile-name"><b>${post['autor']}</b></span>
+        </div>
+        
+    </div>
+    <img class="post-it-img" src="${post['image']}" alt="">
+    <div class="comment-section">
+        <div class="comment-section-icons">
+            <div class="comment-section-icons-left">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/Herz.svg" alt="">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/sprechblase.svg" alt="">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/flieger-icon.svg" alt="">
+            </div>
+            <div class="comment-section-icons-right">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/viereck.icon.svg" alt="">
+            </div>    
+        </div>
+        <div class="comment-section-like"><b>${post['likes']}</b></div>
+        <div class="comment-section-username-and-description"><b>${post['autor']}</b>${post['description']}</div>
+        <div class="comment-section-time">${post['times']}</div>
+        <div class="comment-section-input"> 
+            <img class="comment-section-icon-smilie" src="./img/smilie.svg" alt=""><input class="comment-section-input-field" placeholder="Kommentieren..."></input><button class="comment-section-button"><b>Posten</b></button>
+        </div>
+       
+    </div>
+</div>
+
+
+
+
+
+
+<div class="post-it-main-container">
+    <div class="post-it-header">
+        <img class="three-points" src="./img/3 Punkte.svg" alt="">
+        <div class="post-it-header-container-right">
+            <img class="profile-pic-small story-ring" src="${post['profilePic']}" alt="">
+            <span class="post-it-header-profile-name"><b>${post['autor']}</b></span>
+        </div>
+        
+    </div>
+    <div class="post-it-img-container">
+        <img class="post-it-img" src="${post['image']}" alt="">
+    </div>
+    
+    <div class="comment-section">
+        <div class="comment-section-icons">
+            <div class="comment-section-icons-left">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/Herz.svg" alt="">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/sprechblase.svg" alt="">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/flieger-icon.svg" alt="">
+            </div>
+            <div class="comment-section-icons-right">
+                <img class="comment-section-icon-heart comment-section-icons-size" src="./img/viereck.icon.svg" alt="">
+            </div>    
+        </div>
+        <div class="comment-section-like"><b>${post['likes']}</b></div>
+        <div class="comment-section-username-and-description"><b>${post['autor']}</b> ${post['description']}</div>
+        <div class="comment-section-time">${post['times']}</div>
+        <div class="comment-section-input"> 
+            <img class="comment-section-icon-smilie" src="./img/smilie.svg" alt=""><input class="comment-section-input-field" placeholder="Kommentieren..."></input><button class="comment-section-button"><b>Posten</b></button>
+        </div>
+       
+    </div>
+</div>
+
+
+
+
+
+                <div class="profile-suggestions">
+                    <img class="profile-suggestions_pic" src="./img/Real.png" alt="">
+                    <div class="profile-suggestions-name-container">
+                    <span class="profile-suggestions-username">realmadrid</span>
+                    <span class="profile-suggestions-name">stackoverflow ist Follower</span>
+                    </div>
+                    <div id="follow-or-followed${[i]}" >
+                        <div onclick="followed(${i})" class="follow">Folgen</div> 
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
